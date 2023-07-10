@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    --bs-body-bg: rgb(231, 231, 231); /*comando para background do bootstrap*/
+    font-family: "Poppins", sans-serif;
+  }

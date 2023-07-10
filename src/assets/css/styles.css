@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+:root {
+    --fundo: rgb(240, 212, 212);
+    --laranja-claro-fundo: #f5b883;
+    --laranja-claro: #F2811D;
+    --laranja-escuro: #E35B49;
+    --vermelho: #d3130f;
+    --amarelo: #F1C570;
+    --cinza: #8C8C8C;
+    --background: rgb(248, 248, 248);
+}
+
+.menu {
+    background-color: rgba(161, 212, 201, 0.596);
+    padding: 0.8em 3em;
+    text-transform: uppercase;
+    color: rgb(43, 151, 128);
+    font-size: 16px;
+
+    /* Menu fixo*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    /*não passa itens em cima do menu */
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 2em;
+    height: 2.4em;
+}
+
+.menu ul li:hover {
+    cursor: pointer;
+    color: rgb(28, 139, 115);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
+}
+
+.titulo {
+    font-family: "Alex Brush", cursive;
+    font-size: 80px;
+    text-align: center;
+    padding: 2em 0 1.5em 0;
+}
+
+#btn-anterior,
+#btn-proximo {
+    position: absolute;
+    top: 500px;
+}
+
+#btn-anterior{
+left: 10px;
+}
+
+#btn-proximo {
+right: 20px;
+}
+
+#noivos {
+    background-color: var(--cinza);
+    text-align: justify;
+    padding: 0 60px;
+}
+
+#noivos .noiva {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    align-items: center;
+}
+
+#noivos .noivo {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3em;
+    align-items: center;
+    text-align: right;
+}
+
+
+#madrinhas {
+
+} 
+
+#normas {
+
+}
+
+#lista {
+
+}
+
+#qr-code {
+    
+}
