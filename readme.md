@@ -1,6 +1,6 @@
 # Site para convidados de casamento
 
-<img src="./src/assets/img/badge.svg">
+<img src="./src/assets/img/readMe/badge.svg">
 
 <br><br>
 
