@@ -3,19 +3,22 @@
 
 :root {
     --verde-transp: rgba(161, 212, 201, 0.596);
-    --verde-claro: rgb(43, 151, 128);
-    --verde-escuro: rgb(28, 139, 115);
-
-    --laranja-claro: #F2811D;
-    --laranja-escuro: #E35B49;
+    /* --verde-claro: rgb(43, 151, 128);
+    --verde-escuro: rgb(28, 139, 115); */
     --background: rgb(231, 231, 231);
+
+    --branco: #f2f2f2;
+    --bege: #D9CDBF;
+    --verde-claro: #7ABF9F;
+    --verde-médio: #3E8C6F;
+    --verde-escuro: #1D5943;
 }
 
 .menu {
-    background-color: rgba(161, 212, 201, 0.596);
+    background-color: var(--verde-transp);
     padding: 0.8em 3em;
     text-transform: uppercase;
-    color: rgb(43, 151, 128);
+    color: var(--verde-médio);
     font-size: 16px;
 
     /* Menu fixo*/
@@ -37,7 +40,7 @@
 
 .menu ul li:hover {
     cursor: pointer;
-    color: rgb(28, 139, 115);
+    color: var(--verde-escuro);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
 }
 
@@ -117,7 +120,6 @@
     width: 99.98%;
 }
 
-
 .titulo {
     font-family: "Alex Brush", cursive;
     font-size: 80px;
@@ -149,11 +151,19 @@
 }
 
 /*---------------------------------------------------------------*/
+.margem {
+    padding: 0 150px;
+}
 
 #noivos {
-    background-color: var(--verde-transp);
+    background-color: var(--bege);
     text-align: justify;
-    padding: 0 60px;
+    margin-top: 5em;
+}
+
+#noivos img {
+    border-radius: 30px;
+    width: 30%;
 }
 
 #noivos .noiva {
@@ -169,6 +179,7 @@
     gap: 3em;
     align-items: center;
     text-align: right;
+    padding: 6em 0;
 }
 
 /*---------------------------------------------------------------*/
@@ -195,6 +206,16 @@
 
 footer {
     background-color: var(--verde-transp);
-    color: var(--verde-claro);
-
+    color: var(--verde-médio);
 }
+
+#back-to-top {
+    color: var(--verde-claro);
+    position: fixed;
+
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid var(--verde-escuro);
+    bottom: 20px;
+    right: 20px;
+  }
