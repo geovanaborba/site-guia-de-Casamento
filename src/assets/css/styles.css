@@ -3,8 +3,6 @@
 
 :root {
     --verde-transp: rgba(161, 212, 201, 0.596);
-    /* --verde-claro: rgb(43, 151, 128);
-    --verde-escuro: rgb(28, 139, 115); */
     --background: rgb(231, 231, 231);
 
     --branco: #f2f2f2;
@@ -69,6 +67,7 @@
     font-size: 60px;
     color: #fff;
 }
+
 /*EFEITO CORAÇÃO*/
 
 #inicio i {
@@ -155,15 +154,35 @@
     padding: 0 150px;
 }
 
+.titulo-sobre {
+    font-family: "Alex Brush", cursive;
+    font-size: 80px;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.descricao-sobre {
+    font-style: italic;
+    tab-size: 2;
+    padding: 0 105px 80px 105px;
+}
+
 #noivos {
-    background-color: var(--bege);
+    color: var(--branco);
+    background-color: var(--verde-escuro);
     text-align: justify;
-    margin-top: 5em;
 }
 
 #noivos img {
     border-radius: 30px;
     width: 30%;
+}
+
+#noivos .topicos {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-style: italic;
 }
 
 #noivos .noiva {
@@ -173,15 +192,37 @@
     align-items: center;
 }
 
+#noivos .noiva-texto h1 {
+    color: var(--bege);
+    font-size: 50px;
+}
+
+#noivos .noiva-texto h3 {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: italic;
+}
+
 #noivos .noivo {
     display: flex;
     flex-direction: row-reverse;
     gap: 3em;
     align-items: center;
-    text-align: right;
+    text-align: justify;
+    text-align: left;
     padding: 6em 0;
 }
 
+#noivos .noivo-texto h1 {
+    color: var(--bege);
+    font-size: 50px;
+}
+
+#noivos .noivo-texto h3 {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: italic;
+}
 /*---------------------------------------------------------------*/
 
 #madrinhas {}
@@ -207,15 +248,53 @@
 footer {
     background-color: var(--verde-transp);
     color: var(--verde-médio);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+footer .credito {
+    font-size: 18px;
+}
+
+footer .sociais {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 28px;
+}
+
+footer .sociais h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+footer .sociais i {
+    padding-right: 5px;
+}
+
+footer .sociais a:hover {
+    color: var(--background);
 }
 
 #back-to-top {
     color: var(--verde-claro);
     position: fixed;
-
-    padding: 8px;
+    padding: 4px 8px;
     border-radius: 10px;
-    border: 1px solid var(--verde-escuro);
+    border: 1px solid;
     bottom: 20px;
     right: 20px;
-  }
+}
+
+#back-to-top:hover {
+    background-color: var(--verde-médio);
+    color: var(--branco);
+    border: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
