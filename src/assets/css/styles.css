@@ -2,14 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
 :root {
-    --fundo: rgb(240, 212, 212);
-    --laranja-claro-fundo: #f5b883;
+    --verde-transp: rgba(161, 212, 201, 0.596);
+    --verde-claro: rgb(43, 151, 128);
+    --verde-escuro: rgb(28, 139, 115);
+
     --laranja-claro: #F2811D;
     --laranja-escuro: #E35B49;
-    --vermelho: #d3130f;
-    --amarelo: #F1C570;
-    --cinza: #8C8C8C;
-    --background: rgb(248, 248, 248);
+    --background: rgb(231, 231, 231);
 }
 
 .menu {
@@ -42,33 +41,117 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
 }
 
+/*---------------------------------------------------------------*/
+
+#inicio {
+    position: relative;
+    display: inline-block;
+    font-family: "Alex Brush", cursive;
+}
+
+#inicio .save {
+    position: absolute;
+    text-align: center;
+    top: 360px;
+    left: 200px;
+    font-size: 60px;
+    color: #fff;
+}
+
+#inicio .date {
+    position: absolute;
+    text-align: center;
+    top: 400px;
+    right: 200px;
+    font-size: 60px;
+    color: #fff;
+}
+/*EFEITO CORAÇÃO*/
+
+#inicio i {
+    position: absolute;
+    font-size: 40px;
+    color: #fff;
+    animation: pulse 0.7s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    top: 600px;
+    left: 230px;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        -webkit-filter: brightness(100%);
+    }
+
+    100% {
+        -webkit-transform: scale(1.1);
+        -webkit-filter: brightness(200%);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        filter: brightness(100%);
+    }
+
+    100% {
+        transform: scale(1.1);
+        filter: brightness(200%);
+    }
+}
+
+/*FIM DO EFEITO CORAÇÃO*/
+
+.titulo-principal {
+    font-family: "Alex Brush", cursive;
+    font-size: 80px;
+    text-align: center;
+    padding: 2em 0 0.6em 0;
+}
+
+#inicio img {
+    width: 99.98%;
+}
+
+
 .titulo {
     font-family: "Alex Brush", cursive;
     font-size: 80px;
     text-align: center;
-    padding: 2em 0 1.5em 0;
+    padding: 2em 0 1em 0;
 }
 
-#inicio img {
-    background-size:contain;
+/*---------------------------------------------------------------*/
+
+.titulo-galeria {
+    font-family: "Alex Brush", cursive;
+    font-size: 45px;
+    text-align: center;
+    padding: 2em 0 1.5em 0;
 }
 
 #btn-anterior,
 #btn-proximo {
     position: absolute;
-    top: 500px;
+    top: 1500px;
 }
 
-#btn-anterior{
-left: 10px;
+#btn-anterior {
+    left: 30px;
 }
 
 #btn-proximo {
-right: 20px;
+    right: 30px;
 }
 
+/*---------------------------------------------------------------*/
+
 #noivos {
-    background-color: var(--cinza);
+    background-color: var(--verde-transp);
     text-align: justify;
     padding: 0 60px;
 }
@@ -88,19 +171,30 @@ right: 20px;
     text-align: right;
 }
 
+/*---------------------------------------------------------------*/
 
-#madrinhas {
+#madrinhas {}
 
-} 
+/*---------------------------------------------------------------*/
 
-#normas {
+#normas {}
 
-}
+/*---------------------------------------------------------------*/
 
-#lista {
+#lista {}
 
-}
+/*---------------------------------------------------------------*/
 
-#qr-code {
-    
+#qr-code {}
+
+/*---------------------------------------------------------------*/
+
+#como-chegar {}
+
+/*---------------------------------------------------------------*/
+
+footer {
+    background-color: var(--verde-transp);
+    color: var(--verde-claro);
+
 }

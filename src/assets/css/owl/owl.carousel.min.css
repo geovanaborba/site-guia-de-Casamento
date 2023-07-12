@@ -13,7 +13,7 @@
     display: none;
     width: 90%;
     z-index: 1;
-    margin: 0 60px;
+    margin: auto;
 }
 
 .owl-carousel .owl-stage {
