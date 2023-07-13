@@ -50,3 +50,11 @@ Com isso, fiz algumas seções com essas informações importantes e alguns deta
 
 <br>
 
+
+## Ferramentas úteis: 
+
+[FontAwesome Animating Icons](https://fontawesome.com/docs/web/style/animate)
+
+[Custom Shape Dividers](https://www.shapedivider.app/)
+
+[Get Waves](https://getwaves.io/)

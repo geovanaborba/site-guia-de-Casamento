@@ -45,52 +45,38 @@
 /*---------------------------------------------------------------*/
 
 #inicio {
-    position: relative;
-    display: inline-block;
     font-family: "Alex Brush", cursive;
+    color: var(--verde-médio);
+    text-align: center;    
 }
 
-#inicio .save {
-    position: absolute;
-    text-align: center;
-    top: 360px;
-    left: 200px;
-    font-size: 60px;
-    color: #fff;
+#inicio .titulo-principal {
+    padding: 6em 0 3em 0;
 }
-
-#inicio .date {
-    position: absolute;
-    text-align: center;
-    top: 400px;
-    right: 200px;
-    font-size: 60px;
-    color: #fff;
+#inicio .titulo-principal h1{
+    font-size: 80px;
 }
 
 /*EFEITO CORAÇÃO*/
 
 #inicio i {
     position: absolute;
-    font-size: 40px;
-    color: #fff;
+    font-size: 30px;
     animation: pulse 0.7s infinite;
     animation-direction: alternate;
     -webkit-animation-name: pulse;
     animation-name: pulse;
-    top: 600px;
-    left: 230px;
 }
 
 @-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
-        -webkit-filter: brightness(100%);
+        -webkit-filter: brightness(50%);
     }
 
     100% {
         -webkit-transform: scale(1.1);
-        -webkit-filter: brightness(200%);
+        -webkit-filter: brightness(100%);
     }
 }
 
@@ -102,21 +88,28 @@
 
     100% {
         transform: scale(1.1);
-        filter: brightness(200%);
+        filter: brightness(150%);
     }
 }
 
 /*FIM DO EFEITO CORAÇÃO*/
 
-.titulo-principal {
-    font-family: "Alex Brush", cursive;
-    font-size: 80px;
-    text-align: center;
-    padding: 2em 0 0.6em 0;
+
+#inicio .save-the-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
 }
 
 #inicio img {
-    width: 99.98%;
+    border-radius: 50%;
+}
+
+#inicio .save,
+#inicio .date {
+    font-size: 60px;
 }
 
 .titulo {
@@ -225,8 +218,34 @@
 }
 /*---------------------------------------------------------------*/
 
-#madrinhas {}
+#padrinhos {
 
+}
+
+#padrinhos .padrinhos-desc {
+    text-align: center;
+}
+
+#padrinhos .padrinhos-desc .paleta {
+    width: 50%;
+}
+
+#padrinhos .arranjo {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.abas-padrinhos {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 60px;
+    padding-top: 100px;
+}
+
+.abas-padrinhos h1{
+    font-family: "Alex Brush", cursive;
+}
 /*---------------------------------------------------------------*/
 
 #normas {}
