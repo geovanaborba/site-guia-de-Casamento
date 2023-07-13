@@ -12,7 +12,7 @@
     --verde-escuro: #1D5943;
 }
 
-.menu {
+nav {
     background-color: var(--verde-transp);
     padding: 0.8em 3em;
     text-transform: uppercase;
@@ -27,33 +27,69 @@
     /*não passa itens em cima do menu */
 }
 
-.menu ul {
+nav ul {
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: right;
-    gap: 2em;
+    gap: 4em;
     height: 2.4em;
 }
 
-.menu ul li:hover {
-    cursor: pointer;
-    color: var(--verde-escuro);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
+nav li {
+    display: inline-block;
+    font-size: 16px;
+    color: var(--verde-médio);
 }
+
+nav li:hover {
+    color: var(--verde-escuro);
+    cursor: pointer;
+}
+
+/* ----- Menu Dropdown ----- */
+
+.dropdown {
+    position: absolute;
+    display: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+nav li:hover ul,
+.menu li:hover ul {
+    display: block;
+    right: 0;
+    min-width: 200px;
+}
+
+.li-dropdown {
+    padding: 10px 5px;
+    align-items: center;
+}
+
+.li-dropdown:hover {
+    color: #fff;
+    width: 90%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* ----- Fim do Menu Dropdown ----- */
 
 /*---------------------------------------------------------------*/
 
 #inicio {
     font-family: "Alex Brush", cursive;
     color: var(--verde-médio);
-    text-align: center;    
+    text-align: center;
 }
 
 #inicio .titulo-principal {
     padding: 6em 0 3em 0;
 }
-#inicio .titulo-principal h1{
+
+#inicio .titulo-principal h1 {
     font-size: 80px;
 }
 
@@ -216,11 +252,10 @@
     font-size: 20px;
     font-style: italic;
 }
+
 /*---------------------------------------------------------------*/
 
-#padrinhos {
-
-}
+#padrinhos {}
 
 #padrinhos .padrinhos-desc {
     text-align: center;
@@ -243,7 +278,7 @@
     padding-top: 100px;
 }
 
-.abas-padrinhos h1{
+.abas-padrinhos h1 {
     font-family: "Alex Brush", cursive;
 }
 
@@ -323,7 +358,7 @@ footer .sociais i {
     padding-right: 5px;
 }
 
-footer .sociais a:hover {
+footer a:hover {
     color: var(--background);
 }
 
