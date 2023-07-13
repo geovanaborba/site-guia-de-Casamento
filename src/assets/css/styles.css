@@ -246,6 +246,32 @@
 .abas-padrinhos h1{
     font-family: "Alex Brush", cursive;
 }
+
+.inspiracao {
+    text-align: center;
+    font-family: 'Poppins';
+    color: #1D5943;
+    padding: 5em 0;
+}
+
+.inspiracao-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.inspiracao-imgs .img1,
+.inspiracao-imgs .img2 {
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+}
+
+.inspiracao-imgs .img3 {
+    width: 30%;
+    border-radius: 50%;
+}
+
 /*---------------------------------------------------------------*/
 
 #normas {}
@@ -300,6 +326,8 @@ footer .sociais i {
 footer .sociais a:hover {
     color: var(--background);
 }
+
+/*---------------------------------------------------------------*/
 
 #back-to-top {
     color: var(--verde-claro);
