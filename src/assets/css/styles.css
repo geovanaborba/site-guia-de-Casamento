@@ -13,7 +13,7 @@
 }
 
 nav {
-    background-color: var(--verde-transp);
+    background-color: var(--bege);
     padding: 0.8em 3em;
     color: var(--verde-médio);
     font-size: 18px; 
@@ -313,15 +313,12 @@ nav li:hover ul,
     justify-content: space-evenly;
 }
 
-.inspiracao-imgs .img1,
-.inspiracao-imgs .img2 {
+.inspiracao-imgs 
+.img1,
+.img2,
+.img3 {
     width: 340px;
     height: 340px;
-    border-radius: 50%;
-}
-
-.inspiracao-imgs .img3 {
-    width: 30%;
     border-radius: 50%;
 }
 
@@ -339,7 +336,37 @@ nav li:hover ul,
 
 /*---------------------------------------------------------------*/
 
-#como-chegar {}
+.subtitulo,
+.sub-end {
+    font-family: 'Poppins', cursive;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#igreja img {
+    width: 40%;
+    border-radius: 20px;
+    margin-top: 2em;
+}
+
+.igreja-local,
+.igreja-mapa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+    align-items: center;
+}
+
+.igreja-end {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#como-chegar .mapa {
+    text-align: center;
+}
 
 /*---------------------------------------------------------------*/
 
