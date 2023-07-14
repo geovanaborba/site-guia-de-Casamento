@@ -15,41 +15,57 @@
 nav {
     background-color: var(--verde-transp);
     padding: 0.8em 3em;
+    color: var(--verde-médio);
+    font-size: 18px; 
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99; 
+}
+
+.dropdown-item:hover {
+    background-color: var(--verde-transp) !important;
+}
+
+
+/* ----- Início do código do menu sem bootstrap ----- */ 
+
+/* nav {
+    background-color: var(--verde-transp);
+    padding: 0.8em 3em;
     text-transform: uppercase;
     color: var(--verde-médio);
     font-size: 16px;
 
-    /* Menu fixo*/
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 99;
-    /*não passa itens em cima do menu */
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
     align-items: center;
-    justify-content: right;
-    gap: 4em;
+    justify-content: space-between;
+
     height: 2.4em;
 }
 
 nav li {
     display: inline-block;
     font-size: 16px;
-    color: var(--verde-médio);
 }
 
 nav li:hover {
     color: var(--verde-escuro);
     cursor: pointer;
-}
+}  */
 
 /* ----- Menu Dropdown ----- */
 
-.dropdown {
+/* .dropdown {
     position: absolute;
     display: none;
     text-align: left;
@@ -60,22 +76,24 @@ nav li:hover {
 nav li:hover ul,
 .menu li:hover ul {
     display: block;
-    right: 0;
-    min-width: 200px;
+    width: 180px;
 }
 
 .li-dropdown {
     padding: 10px 5px;
+    width: 160px;
     align-items: center;
+    background-color: var(--verde-transp);
 }
 
 .li-dropdown:hover {
     color: #fff;
     width: 90%;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
+} */
 
 /* ----- Fim do Menu Dropdown ----- */
+/* ----- Fim do código do menu sem bootstrap ----- */ 
 
 /*---------------------------------------------------------------*/
 
