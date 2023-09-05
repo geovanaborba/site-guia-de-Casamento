@@ -336,7 +336,33 @@ nav li:hover ul,
 .qr-code {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.desc-code {
+    padding-top: 5em;
+    position: relative;
+    text-align: center;
+}
+
+.desc-code summary {
+    padding-top: 30px;
+}
+
+.infos-code {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.infos-code p {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    width: 500px;
+    padding: 0 20px 0 40px;
 }
 
 .img-code {
@@ -348,7 +374,10 @@ nav li:hover ul,
 }
 .img-code button {
     position: absolute;
-    padding: 10px 40px;
+    width: 350px;
+    height: 45px;
+
+    font-size: 17px;
     border-radius: 10px;
     border: none;
     font-weight: bold;
@@ -356,7 +385,14 @@ nav li:hover ul,
 
     z-index:1;
     top:80%;
-    left:20%;
+    left:15%;
+}
+
+.img-code input {
+    position: absolute;
+    z-index:-1;
+    top:82%;
+    left:30%;
 }
 
 

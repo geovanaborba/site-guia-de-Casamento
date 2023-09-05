@@ -41,12 +41,13 @@ Com isso, fiz algumas seções com essas informações importantes e alguns deta
 
 [Canal hcode - Galeria de fotos com OWL Carousel](https://www.youtube.com/watch?v=gKesdxKezig)
 
+[Wagner Bugs - Copiar texto para área de transferência](https://www.youtube.com/watch?v=_qtaEkpnP68)
 
 <br>
 
 ## Imagens utilizadas: 
 
-[FreePik - pesquisa: pre wedding](https://br.freepik.com/search?format=search&query=pre%20wedding)
+[FreePik - Pesquisa: pre wedding](https://br.freepik.com/search?format=search&query=pre%20wedding)
 
 <br>
 

@@ -313,13 +313,25 @@
 
             <div class="qr-code">
                 <div class="desc-code">
-                    <p>Criamos a lista de casamento virtual, mas caso não seja acessível para você, também
+                    <p>Criamos a lista de casamento virtual, mas caso não seja acessível para você, <br> também
                         disponibilizamos
                         um QRCode para envios de valores. </p>
+
+                    <details>
+                        <summary>Informações da transferência <i class="fa-solid fa-caret-down"></i></summary>
+                        <div class="infos-code">
+                            <p><strong>Favorecido</strong> <span>Geovana de Avila Borba &copy;</span></p>
+                            <p><strong>CPF</strong> <span>•••.798.728-••</span></p>
+                            <p><strong>Banco</strong> <span>260 - Nu Pagamentos S.A.</span></p>
+                            <p><strong>Identificador</strong> <span>efZX6irNgysZj3tygibp</span></p>
+                        </div>
+                    </details>
+
                 </div>
                 <div class="img-code">
                     <img src="./src/assets/img/outros/qr-code.jpg" alt="qr code">
-                    <button>Copiar código do QR Code <i class="fa-regular fa-copy"></i></button>
+                    <input type="text" id="text" value="00020126360014BR.GOV.BCB.PIX0114+55119932205405204000053039865802BR5922Geovana de Avila Borba6009SAO PAULO61080540900062240520efZX6irNgysZj3tygibp6304F198" readonly>
+                    <button id="btnCopiar" onclick="copiarTexto()">Copiar código do QR Code <i class="fa-regular fa-copy"></i></button>
                 </div>
             </div>
         </div>
@@ -516,6 +528,8 @@
     <script src="./src/assets/js/owl/owl.carousel.min.js"></script>
     <script src="./src/assets/js/owl/setup.js"></script>
     <script src="./src/assets/js/back-to-top.js"></script>
+
+    <script src="./src/assets/js/copy-qrCode.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
