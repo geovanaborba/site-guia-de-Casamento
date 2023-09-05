@@ -28,7 +28,6 @@ nav {
     background-color: var(--verde-transp) !important;
 }
 
-
 /* ----- Início do código do menu sem bootstrap ----- */
 
 /* nav {
@@ -501,11 +500,11 @@ nav li:hover ul,
 }
 
 .infoUser input {
-    font-size: 16px;
-    color: var(--verde-escuro);
     margin-left: 10px;
     border-radius: 7px;
     padding: 4px;
+    border-color: var(--verde-transp);
+    outline: none;
 }
 
 .formPost {
@@ -579,6 +578,11 @@ li.post {
     box-shadow: 1px 0 3px rgba(0,0,0,0.2);
 }
 
+li.post p {
+    width: 100%;
+    margin: 20px 0;
+}
+
 .infoUserPost {
     display: flex;
     align-items: center;
@@ -594,8 +598,39 @@ li.post {
 
 .namePost strong {
     color: var(--verde-escuro);
+    margin-left: 10px;
 }
 
+.actionBtnPost {
+    display: flex;
+    align-items: center;
+}
+
+.actionBtnPost .filesPost {
+    font-size: 13px;
+    padding: 2px 12px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    outline: none;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionBtnPost .filesPost i {
+    margin-right: 5px;
+}
+
+.actionBtnPost .love:hover {
+    background-color: #FF6B6B;
+    color: var(--branco);
+}
+
+.actionBtnPost .like:hover {
+    background-color: #6bcfff;
+    color: var(--branco);
+}
 /*---------------------------------------------------------------*/
 
 footer {
