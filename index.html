@@ -294,7 +294,7 @@
     </section>
 
     <section id="normas">
-        <h1 class="titulo">Informações do casamento</h1>
+        <h1 class="titulo">Normas do casamento</h1>
         <div class="margem">
             <!--cores e normas de como se vestir-->
         </div>
@@ -311,6 +311,17 @@
         <h1 class="titulo">QR Code</h1>
         <div class="margem">
 
+            <div class="qr-code">
+                <div class="desc-code">
+                    <p>Criamos a lista de casamento virtual, mas caso não seja acessível para você, também
+                        disponibilizamos
+                        um QRCode para envios de valores. </p>
+                </div>
+                <div class="img-code">
+                    <img src="./src/assets/img/outros/qr-code.jpg" alt="qr code">
+                    <button>Copiar código do QR Code <i class="fa-regular fa-copy"></i></button>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -393,12 +404,110 @@
             entre outras.</p>
     </section>
 
-    <footer>
-        <div class="credito">
-            <p>Criado por Geovana Borba &copy; 2023</p>
-            <a href="https://github.com/geovanaborba" target="_blank" class="text-decoration-none text-reset"><i
-                    class="fa-brands fa-github"></i>GitHub</a>
+
+    <section id="mensagem">
+        <h1 class="titulo">Poste sua mensagem</h1>
+        <div class="mensagem-desc">
+            <h3>Gostaria de escrever felicitações aos noivos? Faça isso aqui.</h3>
+            <p>Deixe sua mensagem para que ela seja exibida durante a festa do grande dia.</p>
         </div>
+
+        <div class="newPost">
+            <div class="infoUser">
+                <div class="imgUser"></div>
+                <input name="inputName" type="text" placeholder="Nome Completo">
+            </div>
+            <form action="" class="formPost">
+                <textarea name="textarea" placeholder="Deixe sua mensagem"></textarea>
+
+                <div class="iconsAndButtons">
+                    <div class="icons">
+                        <button class="btnFileForm"><img src="./src/assets/img/postagem/gif.svg"
+                                alt="Adicionar um gif"></button>
+                        <button class="btnFileForm"><img src="./src/assets/img/postagem/video.svg"
+                                alt="Adicionar um vídeo"></button>
+                        <button class="btnFileForm"><img src="./src/assets/img/postagem/img.svg"
+                                alt="Adicionar uma imagem"></button>
+                    </div>
+                    <button type="submit" class="btnSubmitForm">Publicar</button>
+
+                </div>
+            </form>
+        </div>
+
+        <ul class="posts">
+            <li class="post">
+                <div class="infoUserPost">
+                    <div class="imgUserPost"></div>
+                    <div class="namePost">
+                        <strong>Nome Completo</strong>
+                    </div>
+                </div>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum."</p>
+
+                <div class="actionBtnPost">
+                    <button type="button" class="filesPost"><i class="fa-regular fa-heart" alt="Amei"></i>Amei</button>
+
+                    <button type="button" class="filesPost"><i class="fa-regular fa-thumbs-up"
+                            alt="Curtir"></i>Curtir</button>
+                </div>
+            </li>
+
+            <li class="post">
+                <div class="infoUserPost">
+                    <div class="imgUserPost"></div>
+                    <div class="namePost">
+                        <strong>Nome Completo</strong>
+                    </div>
+                </div>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum."</p>
+
+                <div class="actionBtnPost">
+                    <button type="button" class="filesPost"><i class="fa-regular fa-heart" alt="Amei"></i>Amei</button>
+
+                    <button type="button" class="filesPost"><i class="fa-regular fa-thumbs-up"
+                            alt="Curtir"></i>Curtir</button>
+                </div>
+            </li>
+
+            <li class="post">
+                <div class="infoUserPost">
+                    <div class="imgUserPost"></div>
+                    <div class="namePost">
+                        <strong>Nome Completo</strong>
+                    </div>
+                </div>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum."</p>
+
+                <div class="actionBtnPost">
+                    <button type="button" class="filesPost"><i class="fa-regular fa-heart" alt="Amei"></i>Amei</button>
+
+                    <button type="button" class="filesPost"><i class="fa-regular fa-thumbs-up"
+                            alt="Curtir"></i>Curtir</button>
+                </div>
+            </li>
+        </ul>
+
+    </section>
+
+
+
+    <footer>
+        <p>Criado por Geovana Borba &copy; 2023</p>
+        <a href="https://github.com/geovanaborba" target="_blank" class="text-decoration-none text-reset"><i
+                class="fa-brands fa-github"></i>GitHub</a>
     </footer>
 
     <button id="back-to-top"><i class="fa-solid fa-arrow-up-from-bracket"></i></button>

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 
 a {
@@ -13,4 +14,6 @@ a {
 body {
     --bs-body-bg: rgb(231, 231, 231); /*comando para background do bootstrap*/
     font-family: "Poppins", sans-serif;
+
+    -webkit-font-smoothing: antialiased !important; /*deixa as fontes com a resolução um pouco melhor*/
   }

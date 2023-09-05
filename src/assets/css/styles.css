@@ -16,12 +16,12 @@ nav {
     background-color: var(--bege);
     padding: 0.8em 3em;
     color: var(--verde-médio);
-    font-size: 18px; 
+    font-size: 18px;
 
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 99; 
+    z-index: 99;
 }
 
 .dropdown-item:hover {
@@ -29,7 +29,7 @@ nav {
 }
 
 
-/* ----- Início do código do menu sem bootstrap ----- */ 
+/* ----- Início do código do menu sem bootstrap ----- */
 
 /* nav {
     background-color: var(--verde-transp);
@@ -93,7 +93,7 @@ nav li:hover ul,
 } */
 
 /* ----- Fim do Menu Dropdown ----- */
-/* ----- Fim do código do menu sem bootstrap ----- */ 
+/* ----- Fim do código do menu sem bootstrap ----- */
 
 /*---------------------------------------------------------------*/
 
@@ -310,8 +310,7 @@ nav li:hover ul,
     justify-content: space-evenly;
 }
 
-.inspiracao-imgs 
-.img1,
+.inspiracao-imgs .img1,
 .img2,
 .img3 {
     width: 340px;
@@ -321,9 +320,7 @@ nav li:hover ul,
 
 /*---------------------------------------------------------------*/
 
-#normas {
-    
-}
+#normas {}
 
 /*---------------------------------------------------------------*/
 
@@ -331,7 +328,37 @@ nav li:hover ul,
 
 /*---------------------------------------------------------------*/
 
-#qr-code {}
+#qr-code {
+
+}
+
+
+.qr-code {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-code {
+    position: relative;
+}
+
+.img-code img {
+    border-radius: 40px;
+}
+.img-code button {
+    position: absolute;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: var(--verde-escuro);
+
+    z-index:1;
+    top:80%;
+    left:20%;
+}
+
 
 /*---------------------------------------------------------------*/
 
@@ -387,11 +414,13 @@ nav li:hover ul,
     text-align: center;
 
 }
+
 #sobre .sobre-imgs img {
     width: 400px;
     height: 300px;
     padding-top: 5px;
 }
+
 /*---------------------------------------------------------------*/
 
 #como-chegar .mapa {
@@ -400,18 +429,145 @@ nav li:hover ul,
 
 /*---------------------------------------------------------------*/
 
+#mensagem {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.mensagem-desc {
+    text-align: center;
+}
+
+.newPost {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 50px 0;
+    padding: 25px;
+    background: var(--branco);
+    border-radius: 10px;
+    box-shadow: 1px 0 3px rgba(0,0,0,0.2);
+}
+
+.infoUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoUser .imgUser {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--verde-escuro);
+}
+
+.infoUser input {
+    font-size: 16px;
+    color: var(--verde-escuro);
+    margin-left: 10px;
+    border-radius: 7px;
+    padding: 4px;
+}
+
+.formPost {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formPost textarea {
+    background-color: var(--verde-transp);
+    margin: 15px 0;
+    padding: 25px;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    height: 90px;
+}
+
+.iconsAndButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.icons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    background: none;
+}
+
+.btnSubmitForm {
+    background-color: var(--verde-médio);
+    padding: 10px 50px;
+    color: var(--branco);
+    font-weight: bold;
+
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnSubmitForm:hover {
+    background-color: var(--verde-escuro);
+}
+
+.icons img {
+    filter:contrast(80%) sepia(50%);
+}
+
+/*---------------------------------------------------------------*/
+
+ul.posts, 
+li.post {
+    margin-bottom: 50px;
+    background-color: var(--branco);
+    border-radius: 10px;
+    padding: 25px;
+    width: 100%;
+    box-shadow: 1px 0 3px rgba(0,0,0,0.2);
+}
+
+.infoUserPost {
+    display: flex;
+    align-items: center;
+
+}
+
+.imgUserPost {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--verde-escuro);
+}
+
+.namePost strong {
+    color: var(--verde-escuro);
+}
+
+/*---------------------------------------------------------------*/
+
 footer {
     background-color: var(--verde-transp);
     color: var(--verde-médio);
-    display: flex;
-    flex-direction: column;
     text-align: center;
     align-items: center;
     padding: 30px 0;
-}
-
-footer .credito {
-    font-size: 18px;
 }
 
 footer i {
