@@ -427,10 +427,10 @@
         <div class="newPost">
             <div class="infoUser">
                 <div class="imgUser"></div>
-                <input name="inputName" type="text" placeholder="Nome Completo">
+                <input name="inputName" id="inputName" type="text" placeholder="Nome Completo">
             </div>
-            <form action="" class="formPost">
-                <textarea name="textarea" placeholder="Deixe sua mensagem"></textarea>
+            <form action="" class="formPost" id="formPost">
+                <textarea name="textarea" placeholder="Deixe sua mensagem" id="textarea"></textarea>
 
                 <div class="iconsAndButtons">
                     <div class="icons">
@@ -441,13 +441,12 @@
                         <button class="btnFileForm"><img src="./src/assets/img/postagem/img.svg"
                                 alt="Adicionar uma imagem"></button>
                     </div>
-                    <button type="submit" class="btnSubmitForm">Publicar</button>
-
+                    <button type="submit" id="botao" class="btnSubmitForm">Publicar</button>
                 </div>
             </form>
         </div>
 
-        <ul class="posts">
+        <ul class="posts" id="posts">
             <li class="post">
                 <div class="infoUserPost">
                     <div class="imgUserPost"></div>
@@ -476,32 +475,7 @@
                         <strong>Nome Completo</strong>
                     </div>
                 </div>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum."</p>
-
-                <div class="actionBtnPost">
-                    <button type="button" class="filesPost love"><i class="fa-regular fa-heart" alt="Amei"></i>Amei</button>
-
-                    <button type="button" class="filesPost like"><i class="fa-regular fa-thumbs-up"
-                            alt="Curtir"></i>Curtir</button>
-                </div>
-            </li>
-
-            <li class="post">
-                <div class="infoUserPost">
-                    <div class="imgUserPost"></div>
-                    <div class="namePost">
-                        <strong>Nome Completo</strong>
-                    </div>
-                </div>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum."</p>
+                <p>"Que o bom humor de vocês sejam sempre a base para criar bons momentos felizes e espantar os problemas. Parabéns pelo casamento, casal!"</p>
 
                 <div class="actionBtnPost">
                     <button type="button" class="filesPost love"><i class="fa-regular fa-heart" alt="Amei"></i>Amei</button>
@@ -530,6 +504,7 @@
     <script src="./src/assets/js/back-to-top.js"></script>
 
     <script src="./src/assets/js/copy-qrCode.js"></script>
+    <script src="./src/assets/js/form-Post.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
