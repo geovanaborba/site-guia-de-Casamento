@@ -1,6 +1,7 @@
 class FormPost {
-    constructor(idForm, idTextarea, ListPost) {
+    constructor(idForm, idInput, idTextarea, ListPost) {
         this.form = document.getElementById(idForm);
+        this.input = document.getElementById(idInput);
         this.textarea = document.getElementById(idTextarea);
         this.listPost = document.getElementById(ListPost);
         this.addSubmit();
@@ -25,14 +26,16 @@ class FormPost {
     addSubmit() {
         const handleSubmit = (event) => {
             event.preventDefault();
-            if (this.formValidate(this.textarea.value)) {
+            if (this.formValidate(this.input.value) && (this.formValidate(textarea.value))) {
                 const newPost = document.createElement('li');
                 newPost.classList.add('post');
                 newPost.innerHTML = `
                 <div class="infoUserPost">
                     <div class="imgUserPost"></div>
                         <div class="namePost">
-                            <strong>Nome Completo</strong> 
+                            <strong>
+                                ${this.input.value}
+                            </strong> 
                         </div>
                 </div>
                     <p>
@@ -52,13 +55,14 @@ class FormPost {
                     </div>
                     `;
                     this.listPost.appendChild(newPost);
+                    this.input.value = '';
                     this.textarea.value= '';
             } else {
-                alert('Verifique o campo digitado. Não é permitido enviar mensagens com menos de 3 caracteres.');
+                alert('Verifique os campo digitados. Não é permitido enviar mensagens sem identificação ou com menos de 3 caracteres.');
             }
         }
         this.onSubmit(handleSubmit);
     }
 }
 
-const postForm = new FormPost('formPost', 'textarea', 'posts');
+const postForm = new FormPost('formPost', 'input', 'textarea', 'posts');

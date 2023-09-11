@@ -489,7 +489,7 @@ nav li:hover ul,
 .infoUser {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:left;
 }
 
 .infoUser .imgUser {
