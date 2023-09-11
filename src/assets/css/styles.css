@@ -609,7 +609,7 @@ li.post p {
 .actionBtnPost .filesPost {
     font-size: 13px;
     padding: 2px 12px;
-    margin-left: 10px;
+    margin: 10px 0 0 10px;
     border-radius: 10px;
     border: 1px solid;
     outline: none;  
@@ -630,6 +630,12 @@ li.post p {
 .actionBtnPost .like:hover {
     background-color: #6bcfff;
     color: var(--branco);
+}
+
+.actionBtnPost span {
+    margin: 10px 0 0 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
 }
 /*---------------------------------------------------------------*/
 

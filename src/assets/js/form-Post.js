@@ -39,20 +39,17 @@ class FormPost {
                         </div>
                 </div>
                     <p>
-                        ${this.textarea.value}
+                        "${this.textarea.value}"
                     </p>
     
                     <div class="actionBtnPost">
-                        <button type="button" class="filesPost love">
-                            <i class="fa-regular fa-heart" alt="Amei"></i>
-                            Amei
-                        </button>
-    
-                        <button type="button" class="filesPost like">
-                            <i class="fa-regular fa-thumbs-up"alt="Curtir"></i>
-                            Curtir
-                        </button>
-                    </div>
+                    <button type="button" class="filesPost love" id="btnLove"><i class="fa-regular fa-heart" alt="Amei"></i>Amei</button>
+                    <span id="displayLove">0</span>
+
+
+                    <button type="button" class="filesPost like" id="btnLike"><i class="fa-regular fa-thumbs-up" alt="Curtir"></i>Curtir</button>
+                            <span id="displayLike">0</span>
+                </div>
                     `;
                     this.listPost.appendChild(newPost);
                     this.input.value = '';
