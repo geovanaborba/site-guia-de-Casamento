@@ -107,7 +107,7 @@ nav li:hover ul,
 }
 
 #inicio .titulo-principal {
-    padding: 7em 0 3em 0;
+    padding: 7em 0 1em 0;
 }
 
 #inicio .titulo-principal h1 {
@@ -158,7 +158,6 @@ nav li:hover ul,
     justify-content: center;
     align-items: center;
     gap: 5em;
-    padding-top: 20px;
 }
 
 #inicio img {
@@ -177,19 +176,20 @@ nav li:hover ul,
     padding: 1em 0;
 }
 
-/*---------------------------------------------------------------*/
-
-.titulo-galeria {
+.frase {
     font-family: "Alex Brush", cursive;
     font-size: 45px;
     text-align: center;
     padding: 2em 0 1.5em 0;
 }
 
+/*---------------------------------------------------------------*/
+
+
 #btn-anterior,
 #btn-proximo {
     position: absolute;
-    top: 1500px;
+    top: 1750px;
 }
 
 #btn-anterior {
