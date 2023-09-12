@@ -96,6 +96,10 @@ nav li:hover ul,
 
 /*---------------------------------------------------------------*/
 
+.margem {
+    padding: 0 150px;
+}
+
 #inicio {
     font-family: "Alex Brush", cursive;
     color: var(--verde-médio);
@@ -167,9 +171,9 @@ nav li:hover ul,
 
 .titulo {
     font-family: "Alex Brush", cursive;
-    font-size: 80px;
+    font-size: 120px;
     text-align: center;
-    padding: 2em 0 1em 0;
+    padding: 1em 0;
 }
 
 /*---------------------------------------------------------------*/
@@ -196,39 +200,51 @@ nav li:hover ul,
 }
 
 /*---------------------------------------------------------------*/
-.margem {
-    padding: 0 150px;
-}
-
-.titulo-sobre {
-    font-family: "Alex Brush", cursive;
-    font-size: 80px;
-    text-align: center;
-    padding: 1em 0;
-}
-
-.descricao-sobre {
-    font-style: italic;
-    tab-size: 2;
-    padding: 0 105px 80px 105px;
-}
 
 #noivos {
     color: var(--branco);
     background-color: var(--verde-escuro);
     text-align: justify;
+    font-size: 20px;
+}
+
+.margem-noivos {
+    padding: 0 15%;
+}
+
+.titulo-sobre {
+    text-align: center;
+    padding: 6em 0 1em 0;
+}
+
+.titulo-sobre span {
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.2;
+    font-size: 80px;
+    letter-spacing: 20px;
+    position: absolute;
+    right: 37%;
+}
+
+.titulo-sobre h1 {
+    font-family: "Alex Brush", cursive;
+    font-size: 140px;
+    position: relative;
+    padding: 45px;
+}
+
+.descricao-sobre {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 50px;
+    text-align: justify;
+    padding: 0 15% 10% 15%;
 }
 
 #noivos img {
     border-radius: 30px;
     width: 30%;
-}
-
-#noivos .topicos {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    font-style: italic;
 }
 
 #noivos .noiva {
@@ -238,41 +254,44 @@ nav li:hover ul,
     align-items: center;
 }
 
-#noivos .noiva-texto h1 {
-    color: var(--bege);
-    font-size: 50px;
-}
-
-#noivos .noiva-texto h3 {
-    font-family: 'Poppins';
-    font-size: 20px;
-    font-style: italic;
-}
-
 #noivos .noivo {
     display: flex;
     flex-direction: row-reverse;
     gap: 3em;
     align-items: center;
-    text-align: justify;
     text-align: left;
     padding: 6em 0;
 }
 
+#noivos .noiva-texto h1,
 #noivos .noivo-texto h1 {
     color: var(--bege);
-    font-size: 50px;
+    font-size: 100px;
+    font-family: 'Alex Brush', cursive;
 }
 
+#noivos .noiva-texto h3,
 #noivos .noivo-texto h3 {
-    font-family: 'Poppins';
-    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: var(--bege);
     font-style: italic;
 }
 
-/*---------------------------------------------------------------*/
+#noivos .topicos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-style: italic;
+    color: var(--bege);
+}
 
-#padrinhos {}
+#noivos .itens-topicos {
+    font-size: 16px;
+    padding: 5px 0 0 30px;
+}
+/*---------------------------------------------------------------*/
 
 #padrinhos .padrinhos-desc {
     text-align: center;
@@ -319,18 +338,40 @@ nav li:hover ul,
 
 /*---------------------------------------------------------------*/
 
-#normas {}
+#normas .margem-normas {
+    padding: 0 20%;
+}
+
+#normas ol li {
+    list-style-type: decimal; 
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 0 20px 5px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 #d3b99e, 2px -2px 0 #d3b99e, -2px 2px 0 #d3b99e, -2px -2px 0 #d3b99e, 2px 0px 0 #d3b99e, 0px 2px 0 #d3b99e, -2px 0px 0 #d3b99e, 0px -2px 0 #d3b99e;
+}
+
+#normas .normas-desc {
+    font-size: 20px;
+    color: var(--verde-escuro);
+    padding-bottom: 3em;
+    line-height: 45px;
+    text-align: justify;
+}
+
+#normas ol span {
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    padding-left: 40px;
+}
 
 /*---------------------------------------------------------------*/
 
 #lista {}
 
 /*---------------------------------------------------------------*/
-
-#qr-code {
-
-}
-
 
 .qr-code {
     display: flex;
