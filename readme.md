@@ -15,13 +15,26 @@ Com isso, fiz algumas seções com essas informações importantes e alguns deta
 
 * Dicas e detalhes importantes para os padrinhos
 
-* Normas estipuladas pelos noivos sobre o casamento
+* Normas e Dress Code estipulados pelos noivos
 
-* A lista de desejos do casamento 
+* Lista de presentes virtual
 
 * QR Code disponível 
 
-* Seção de mensagens que os convidados podem postar para serem exibidas no grande dia
+* Informações sobre local da cerimônia e festa 
+
+* Seção de mensagens que os convidados podem postar para serem exibidas no grande dia 
+
+
+## Informações relevantes 
+
+* O QR Code é funcional. Ao clicar no botão, os dados do QRCode são copiados para área de transferência através de JS.
+
+* Foram incorporados mapas do Google Maps ao site, para as seções de informações sobre os locais de cerimônia e festa
+
+* Adicionado botão com JS para voltar ao topo da página
+
+* A publicação de mensagens está funcional e o contador de curtidas está funcionando corretamente na seção Mensagem.
 
 <br>
 
@@ -35,13 +48,7 @@ Com isso, fiz algumas seções com essas informações importantes e alguns deta
 
 [Custom Scrollbar Maker](https://codepen.io/stephenpaton-tech/full/JjRvGmY)
 
-<br>
-
-## Videos Tutoriais: 
-
-[Canal hcode - Galeria de fotos com OWL Carousel](https://www.youtube.com/watch?v=gKesdxKezig)
-
-[Wagner Bugs - Copiar texto para área de transferência](https://www.youtube.com/watch?v=_qtaEkpnP68)
+[Get Waves](https://getwaves.io/)
 
 <br>
 
@@ -51,11 +58,8 @@ Com isso, fiz algumas seções com essas informações importantes e alguns deta
 
 <br>
 
+## Videos Tutoriais: 
 
-## Ferramentas úteis: 
+[Canal hcode - Galeria de fotos com OWL Carousel](https://www.youtube.com/watch?v=gKesdxKezig)
 
-[FontAwesome Animating Icons](https://fontawesome.com/docs/web/style/animate)
-
-[Custom Shape Dividers](https://www.shapedivider.app/)
-
-[Get Waves](https://getwaves.io/)
+[Wagner Bugs - Copiar texto para área de transferência](https://www.youtube.com/watch?v=_qtaEkpnP68)
