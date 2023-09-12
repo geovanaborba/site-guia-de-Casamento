@@ -58,7 +58,9 @@ Com isso, fiz algumas seções com essas informações importantes e alguns deta
 
 <br>
 
-## Videos Tutoriais: 
+## Tutoriais: 
+
+[Akira Hashiro - Flip Cards](https://www.treinaweb.com.br/blog/css-aprenda-a-criar-o-efeito-de-flip-cards)
 
 [Canal hcode - Galeria de fotos com OWL Carousel](https://www.youtube.com/watch?v=gKesdxKezig)
 
