@@ -293,47 +293,148 @@ nav li:hover ul,
 }
 /*---------------------------------------------------------------*/
 
-#padrinhos .padrinhos-desc {
+#padrinhos 
+.padrinhos-desc,
+.paleta-desc {
     text-align: center;
+    position: relative;
 }
 
-#padrinhos .padrinhos-desc .paleta {
+.padrinhos-desc p {
+    font-family: 'Poppins', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 50px;
+    color: var(--verde-escuro);
+}
+
+.padrinhos-desc .atrib {
+    font-family: 'Alex Brush', cursive;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.padrinhos-desc ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    color: var(--verde-escuro);
+    font-size: 18px;
+}
+
+.padrinhos-desc ul li::before {
+    content: '♥';
+    color: burlywood;
+    padding-right: 10px;
+    line-height: 40px;
+}
+
+.paleta-desc .paleta {
     width: 50%;
+    padding: 50px 0;
 }
 
-.abas-padrinhos {
+.paleta-desc .arabesco {
+    padding: 30px 0 50px 0;
+    filter: invert(97%) sepia(5%) saturate(1146%) hue-rotate(320deg) brightness(91%) contrast(86%);
+}
+
+.paleta-desc p {
+    font-family: 'Poppins', cursive;
+    font-size: 18px;
+    color: var(--verde-escuro);
+}
+
+.paleta-desc span {
+    font-weight: bold;
+    color: var(--verde-médio);
+    text-shadow: 1px 1px 1px #1d5943;
+}
+
+.paleta-desc i {
+    font-size: 30px;
+    color: var(--verde-claro);
+}
+
+.flip-padrinhos {
     display: flex;
     flex-direction: row;
-    text-align: center;
     justify-content: center;
-    gap: 100px;
-    padding-top: 100px;
-    margin: 0 200px;
-}
-
-.abas-padrinhos h1 {
-    font-family: "Alex Brush", cursive;
-}
-
-.inspiracao {
     text-align: center;
-    font-family: 'Poppins';
-    color: #1D5943;
-    padding: 5em 0;
+    gap: 100px;
+    padding: 100px 0;
+}
+
+.flip-container {
+    width: 500px;
+    height: 300px;
+    background-color: var(--verde-escuro);
+    perspective: 1000px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.flipper {
+	width: 100%;
+	height: 100%;
+    transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.front, 
+.back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}
+
+.front {
+    color: var(--bege);
+    font-family: 'Alex Brush', cursive;
+    padding: 120px;
+    font-size: 60px;
+}
+
+.back {
+    color: var(--branco);
+    padding: 80px 50px;
+    line-height: 40px;
+
+    transform: rotateY(180deg);
+}
+
+.flip-container:hover .flipper {
+	transform: rotateY(180deg);
+	/* se quiser uma animação na vertical, troque por rotateX(180deg) */
+}
+
+.inspiracao h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: var(--verde-escuro);
+    font-size: 80px;
+    padding: 80px 0 50px 0;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
 }
 
 .inspiracao-imgs {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-bottom: 10em;
 }
 
-.inspiracao-imgs .img1,
+.inspiracao-imgs 
+.img1,
 .img2,
 .img3 {
     width: 340px;
     height: 340px;
     border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 /*---------------------------------------------------------------*/
