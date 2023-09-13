@@ -495,9 +495,9 @@ nav li:hover ul,
     color: var(--verde-escuro);
 }
 
-.consid-p .bold,
 .consid-p span {
     font-weight: bold;
+    color: var(--vermelho);
 }
 
 .consid-p .observacoes {
@@ -507,6 +507,7 @@ nav li:hover ul,
 .consid-p ol li::before {
     content: '♥';
     margin-right: 15px;
+    color: var(--vermelho);
 }
 
 .consid-p h4 {
@@ -754,7 +755,6 @@ nav li:hover ul,
 }
 
 /*---------------------------------------------------------------*/
-
 
 #como-chegar {
     text-align: center;
