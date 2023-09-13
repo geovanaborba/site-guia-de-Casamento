@@ -7,6 +7,7 @@
 
     --branco: #f2f2f2;
     --bege: #D9CDBF;
+    --vermelho: #FF6B6B;
     --verde-claro: #7ABF9F;
     --verde-médio: #3E8C6F;
     --verde-escuro: #1D5943;
@@ -173,7 +174,7 @@ nav li:hover ul,
     font-family: "Alex Brush", cursive;
     font-size: 120px;
     text-align: center;
-    padding: 1em 0;
+    padding: 200px 0 100px 0;
 }
 
 .frase {
@@ -470,8 +471,122 @@ nav li:hover ul,
 
 /*---------------------------------------------------------------*/
 
-#lista {}
+#dress-code {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
 
+.margem-dress-code {
+    padding: 0 20%;
+}
+
+.consideracoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    text-align: justify;
+    line-height: 35px;
+    color: var(--verde-escuro);
+}
+
+.consid-p .bold,
+.consid-p span {
+    font-weight: bold;
+}
+
+.consid-p .observacoes {
+    font-style: italic;
+    font-size: 16px;
+}
+.consid-p ol li::before {
+    content: '♥';
+    margin-right: 15px;
+}
+
+.consid-p h4 {
+    padding: 30px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#dress-code img {
+    width: 25%;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+#dress-code .garden,
+#dress-code .formal {
+    transform: rotate(2deg);
+}
+
+#dress-code .semi {
+    transform: rotate(-2deg);
+}
+
+.referencias {
+    color: var(--verde-escuro);
+    font-size: 16px;
+    padding-top: 40px;
+}
+
+.referencias p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.referencias a {
+    text-decoration: none;
+    color: var(--verde-escuro);
+}
+
+.referencias a:hover {
+    text-decoration: underline;
+}
+
+/*---------------------------------------------------------------*/
+
+#lista img {
+    width: 40%;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.lista h2 {
+    text-align: center;
+}
+
+.lista ul {
+    padding-top: 30px;
+}
+
+.lista ul li {
+    list-style-type: disc;
+    line-height: 40px;
+}
+
+.lista button {
+    padding: 10px 35px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.lista button:hover {
+    background-color: #e95757;
+    color: var(--branco);
+}
 /*---------------------------------------------------------------*/
 
 .qr-code {
@@ -640,7 +755,6 @@ nav li:hover ul,
 #como-chegar {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    color: var(--verde-escuro);
 }
 
 .chegar-end h2 {
@@ -649,6 +763,7 @@ nav li:hover ul,
 }
 
 .chegar-end h4 {
+    color: var(--verde-escuro);
     padding-bottom: 60px;
 }
 
@@ -813,7 +928,7 @@ li.post p {
 }
 
 .actionBtnPost .love:hover {
-    background-color: #FF6B6B;
+    background-color: var(--vermelho);
     color: var(--branco);
 }
 
