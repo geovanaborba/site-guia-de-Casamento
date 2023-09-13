@@ -769,6 +769,92 @@ nav li:hover ul,
 
 /*---------------------------------------------------------------*/
 
+#indicacoes a {
+    text-decoration: none;
+    color: var(--verde-escuro);
+}
+
+#indicacoes .indicacoes {
+    text-align: center;
+    font-size: 20px;
+    color: var(--verde-escuro);
+}
+
+.margem-hotel {
+    margin: 2% 20%;
+}
+
+.hotel-item {
+    background-color: var(--branco);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.hotel-item:hover {
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.hotel-item .item-nome {
+    padding: 20px;
+}
+
+.hotel-item .item-nome .nota {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.hotel-item .hotel-img {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hotel-item .hotel-img span {
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+    padding: 5px 15px;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.hotel-item .hotel-img img {
+    width: 180px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.hoteis .btnHotel {
+    display: flex;
+    justify-content: center;
+}
+
+.btnHotel button {
+    padding: 10px 60px;
+    border-radius: 25px;
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0;
+    border: none;
+    outline: none;
+}
+
+.hoteis button:hover {
+    background-color: var(--verde-médio);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/*---------------------------------------------------------------*/
+
 #mensagem {
     max-width: 900px;
     margin: 0 auto;
