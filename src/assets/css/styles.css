@@ -14,9 +14,9 @@
 }
 
 nav {
-    background-color: var(--bege);
+    background-color: var(--verde-escuro);
     padding: 0.8em 3em;
-    color: var(--verde-médio);
+    color: var(--bege);
     font-size: 18px;
 
     position: fixed;
@@ -27,6 +27,10 @@ nav {
 
 .dropdown-item:hover {
     background-color: var(--verde-transp) !important;
+}
+
+.nav-item:hover {
+    color: var(--branco);
 }
 
 /* ----- Início do código do menu sem bootstrap ----- */
@@ -103,7 +107,7 @@ nav li:hover ul,
 
 #inicio {
     font-family: "Alex Brush", cursive;
-    color: var(--verde-médio);
+    color: var(--verde-escuro);
     text-align: center;
 }
 
@@ -1031,11 +1035,12 @@ li.post p {
 /*---------------------------------------------------------------*/
 
 footer {
-    background-color: var(--verde-transp);
-    color: var(--verde-médio);
+    background-color: var(--verde-escuro);
+    color: var(--bege);
     text-align: center;
     align-items: center;
-    padding: 30px 0;
+    padding: 60px 0;
+    font-size: 18px;
 }
 
 footer i {
@@ -1046,6 +1051,28 @@ footer a:hover {
     color: var(--branco) !important;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
+
+.custom-shape-divider-bottom-1694637462 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1694637462 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 66px;
+}
+
+.custom-shape-divider-bottom-1694637462 .shape-fill {
+    fill: #1D5943;
+}
+
 
 /*---------------------------------------------------------------*/
 
