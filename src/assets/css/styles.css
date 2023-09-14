@@ -429,28 +429,75 @@ nav li:hover ul,
 
 /*NORMAS --------------------------------------------------------*/
 
+#normas .normas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+#normas .normas img {
+    width: 26%;
+}
+
+#normas .normas h3 {
+    color: #f18f8f;
+}
+
+#normas .normas .linha {
+    padding-top: 40px;
+}
+
+#normas .normas p {
+    font-family: 'Poppins', sans-serif;
+}
+
+#normas .divisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#normas .card, .card8 {
+    background: linear-gradient(rgb(255, 244, 232)
+    , rgba(255, 255, 255, 1));
+    padding: 60px;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+#normas .card8 {
+    padding-top: 60px;
+    line-height: 70px;
+    text-align: center;
+}
+
 #normas ol li {
     list-style-type: decimal; 
     font-size: 25px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     padding: 10px 0 20px 5px;
-    color: burlywood;
+    color: #f18f8f;
+    transition: ease-in-out 1s;
 }
 
 #normas .normas-desc {
     font-size: 20px;
-    color: var(--verde-escuro);
-    padding-bottom: 3em;
+    color: #9c9c9c;
     line-height: 45px;
     text-align: justify;
 }
 
-#normas ol span {
+#normas span {
     text-transform: uppercase;
     letter-spacing: 15px;
-    padding-left: 40px;
 }
 
 /*DRESS-CODE ----------------------------------------------------*/
@@ -540,10 +587,6 @@ nav li:hover ul,
     gap: 80px;
 }
 
-.lista h2 {
-    text-align: center;
-}
-
 .lista ul {
     padding-top: 30px;
 }
@@ -568,6 +611,7 @@ nav li:hover ul,
     background-color: #e95757;
     color: var(--branco);
 }
+
 /*QR-CODE -------------------------------------------------------*/
 
 .qr-code {
@@ -576,21 +620,24 @@ nav li:hover ul,
     justify-content: center;
     gap: 50px;
     font-size: 18px;    
-    color: var(--verde-escuro);
     text-align: center;
 }
 
 .desc-code {
-    padding-top: 5em;
+    padding-top: 1em;
     position: relative;
 }
 
-.desc-code .intro {
-    font-weight: bold;
+.desc-code div {
+    padding: 25px 0 15px 0;
 }
 
 .desc-code summary {
-    padding-top: 30px;
+    padding: 10px;
+    background-color: var(--verde-claro);
+    color: var(--branco);
+    font-weight: bold;
+    border-radius: 30px;
 }
 
 .infos-code {
@@ -603,12 +650,9 @@ nav li:hover ul,
 .infos-code .aviso {
     font-style: italic;
     justify-content: center;
-    color: var(--bege);
-    background-color: var(--verde-escuro);
-    border-radius: 10px;
-    padding: 10px;
-
+    color: var(--verde-médio);
 }
+
 .infos-code p {
     display: flex;
     justify-content: space-between;
