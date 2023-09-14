@@ -423,7 +423,7 @@ nav li:hover ul,
 .img3 {
     width: 340px;
     height: 340px;
-    border-radius: 50%;
+    border-radius: 20%;
     box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
@@ -1060,6 +1060,7 @@ footer {
 
 footer i {
     padding-right: 5px;
+    margin-left: 20px;
 }
 
 footer a:hover {
