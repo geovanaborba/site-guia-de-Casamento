@@ -120,78 +120,54 @@ nav li:hover ul,
 
 #inicio {
     font-family: "Alex Brush", cursive;
-    color: var(--verde-escuro);
     text-align: center;
+    background: linear-gradient(rgba(214, 202, 167, 0.589), rgba(231, 231, 231, 0.1));
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #inicio .titulo-principal {
     padding: 7em 0 1em 0;
+    color: var(--verde-escuro);
 }
 
 #inicio .titulo-principal h1 {
     font-size: 100px;
 }
 
-/*EFEITO CORAÇÃO*/
-
-#inicio i {
-    position: absolute;
-    font-size: 30px;
-    animation: pulse 0.7s infinite;
-    animation-direction: alternate;
-    -webkit-animation-name: pulse;
-    animation-name: pulse;
-}
-
-@-webkit-keyframes pulse {
-    0% {
-        -webkit-transform: scale(1);
-        -webkit-filter: brightness(50%);
-    }
-
-    100% {
-        -webkit-transform: scale(1.1);
-        -webkit-filter: brightness(100%);
-    }
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-        filter: brightness(100%);
-    }
-
-    100% {
-        transform: scale(1.1);
-        filter: brightness(150%);
-    }
-}
-
-/*FIM DO EFEITO CORAÇÃO*/
-
-
 #inicio .save-the-date {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: #1D5943;
+    color: var(--bege);
     gap: 5em;
 }
 
 #inicio img {
     border-radius: 50%;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 #inicio .save,
 #inicio .date {
-    font-size: 60px;
+    font-size: 70px;
+}
+
+#inicio iframe {
+    display: block; 
+    margin: 0px auto; 
+    width: 360px;
+    height: 70px; 
+    margin-top: 1.2em;
 }
 
 .frase {
     font-family: "Alex Brush", cursive;
     font-size: 45px;
     text-align: center;
-    padding: 2em 0 1.5em 0;
+    padding: 1em 0 1.5em 0;
 }
 
 /*---------------------------------------------------------------*/
