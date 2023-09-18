@@ -1,15 +1,16 @@
 # Site para convidados de casamento
 
-<img src="./src/assets/img/readMe/badge.svg">
+<img src="./src/assets/img/readMe/badge.svg"> ♥ *Etapa final: Responsividade*
 
 <br><br>
 
-Tive a ideia de fazer esse site, quando estava vendo alguns stories no Instagram e me apareceu uma propaganda de uma moça dando dicas de "como pedir dinheiro aos convidados sem ser invasivo" hahaha 
-Apesar de o tema ser engraçado, uma dica que ela deu (disponibilizar qr code para os convidados), me fez ter a ideia de fazer um site para que todos pudessem ter acesso às informações importantes do casamento, quando as vezes, apenas as madrinhas e os padrinhos tem acesso com antecedência.
+*Estava vendo alguns stories no Instagram um dia e me apareceu uma propaganda de uma moça, dando dicas de "como pedir dinheiro aos convidados sem ser invasivo" hahaha 
+Apesar de o tema ser engraçado, uma dica que ela deu (disponibilizar qr code para os convidados), me fez querer fazer um site para que todos pudessem ter acesso às informações importantes do casamento, quando as vezes, apenas as madrinhas e os padrinhos tem acesso com antecedência. 
+Até então, eu não fazia ideia que já criavam websites do tipo "Save the date" para casamentos. Descobri depois de algumas pesquisas para começar hahaha* 
 
-Com isso, fiz algumas seções com essas informações importantes e alguns detalhes adicionais essenciais para um casamento, sendo elas: 
+## Conteúdo do site
 
-* Galeria de pré wedding para todos visualizarem o álbum de fotos
+* Galeria de pré wedding para todos visualizarem o álbum de fotos (posteriormente, o site pode ser atualizado para disponibilizar as fotos da cerimônia e festa)
 
 * Conteúdo/história sobre os noivos
 
@@ -35,6 +36,10 @@ Com isso, fiz algumas seções com essas informações importantes e alguns deta
 * Adicionado botão com JS para voltar ao topo da página
 
 * A publicação de mensagens está funcional e o contador de curtidas está funcionando corretamente na seção Mensagem.
+
+<br>
+
+<img src ="./src/assets/img/readMe/layout.gif">
 
 <br>
 

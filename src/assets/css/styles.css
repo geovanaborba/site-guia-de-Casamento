@@ -458,7 +458,6 @@ nav li:hover ul,
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
 }
 
 #normas .card, .card8 {
