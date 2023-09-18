@@ -1,26 +1,112 @@
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1800px) {
     #normas .divisa {
-        gap: 100px;
+        gap: 50px;
+    }
+    
+    #normas .card,
+    .card8 {
+        min-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .margem-vinte {
+        margin: 0 10%;
     }
 
-    #normas .card, .card8 {
-        max-width: 600px;
+    #btn-anterior {
+        left: 20px;
+    }
+
+    #btn-proximo {
+        right: 20px;
+    }
+
+    /*--------------------------------------------------------*/
+    .titulo-sobre span {
+        right: 29%;
+    }
+
+    .descricao-sobre {
+        padding: 0 10% 10% 10%;
+    }
+
+    #noivos img {
+        width: 35%;
+    }
+
+    /*--------------------------------------------------------*/
+
+    .paleta-desc .paleta {
+        width: 70%;
+    }
+
+    .inspiracao-imgs .img1,
+    .img2,
+    .img3 {
+        width: 290px;
+        height: 290px;
+    }
+
+    /*--------------------------------------------------------*/
+
+    #normas .divisa {
+        gap: 50px;
+    }
+
+    #normas .card,
+    .card8 {
+        min-width: 400px;
+    }
+
+    /*--------------------------------------------------------*/
+
+    .infos-code p {
+        width: 420px;
+        font-size: 15px;
+        padding: 0 70px 0 10px;
+    }
+
+
+    /*--------------------------------------------------------*/
+
+    #igreja .igreja-end {
+        text-align: center;
+        width: 400px;
+    }
+
+    #igreja img {
+        width: 60%;
+    }
+
+    .igreja-mapa iframe {
+        width: 400px;
+    }
+
+    /*--------------------------------------------------------*/
+
+    .sobre-desc {
+        padding: 0 10%;
+    }
+
+    .mapa iframe {
+        width: 800px;
+        height: 550px;
     }
 }
 
 
 /* DESKTOP */
-@media screen and (min-width: 1024px) {
-
+@media screen and (max-width: 1024px) {
+    .mapa iframe {
+        width: 200px;
+        height: 150px;
+    }
 }
 
-/* TABLET */ 
-@media screen and (min-width:768px) and (max-width: 1023px) {
-
-}
+/* TABLET */
+@media screen and (max-width:768px) {}
 
 /* MOBILE */
-@media screen and (max-width:767px) {
-
-}
-
+@media screen and (max-width:767px) {}
