@@ -2,7 +2,7 @@
     #normas .divisa {
         gap: 50px;
     }
-    
+
     #normas .card,
     .card8 {
         min-width: 500px;
@@ -33,13 +33,18 @@
     }
 
     #noivos img {
-        width: 35%;
+        width: 40%;
     }
 
     /*--------------------------------------------------------*/
 
     .paleta-desc .paleta {
         width: 70%;
+    }
+
+    .flip-padrinhos {
+        gap: 50px;
+        margin: 0 30px;
     }
 
     .inspiracao-imgs .img1,
@@ -97,16 +102,380 @@
 }
 
 
-/* DESKTOP */
-@media screen and (max-width: 1024px) {
+/* DESKTOP / TABLET */
+@media screen and (min-width:768px) and (max-width: 1024px) {
+
+    #inicio .titulo-principal {
+        padding: 10em 0 1em 0;
+    }
+
+    #inicio .titulo-principal h1 {
+        font-size: 70px;
+    }
+
+    #inicio .save-the-date {
+        gap: 3em;
+    }
+
+    #inicio img {
+        width: 50%;
+    }
+
+    #inicio .save,
+    #inicio .date {
+        font-size: 50px;
+    }
+
+    .frase {
+        font-size: 35px;
+        padding: 1em 0 0 0;
+    }
+
+    /*--------------------------------------------------------*/
+
+    .titulo {
+        font-size: 75px;
+    }
+
+    #btn-anterior {
+        top: 1550px;
+        left: 3px;
+    }
+
+    #btn-proximo {
+        top: 1550px;
+        right: 3px;
+    }
+
+    /*--------------------------------------------------------*/
+    .titulo-sobre span {
+        right: 26%;
+    }
+
+    .titulo-sobre h1 {
+        padding-top: 80px;
+        font-size: 110px;
+    }
+
+    .descricao-sobre {
+        font-size: 20px;
+        padding: 0 5% 20% 5%;
+    }
+
+    #noivos .noiva-texto h1,
+    #noivos .noivo-texto h1 {
+        font-size: 90px;
+    }
+
+    /*--------------------------------------------------------*/
+
+    .flip-padrinhos {
+        gap: 20px;
+    }
+
+    .flip-container {
+        width: 400px;
+        height: 280px;
+    }
+
+    .back {
+        padding: 30px 35px 40px 35px;
+    }
+
+    .inspiracao-imgs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .inspiracao-imgs .img1,
+    .img2,
+    .img3 {
+        width: 440px;
+        height: 440px;
+    }
+
+    /*--------------------------------------------------------*/
+
+    #normas .divisa {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #normas .card,
+    .card8 {
+        max-width: 650px;
+    }
+
+    #normas .divisa {
+        gap: 10px;
+    }
+
+    /*--------------------------------------------------------*/
+
+    .lista {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /*--------------------------------------------------------*/
+
+    .qr-code {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 30px;
+        padding-bottom: 100px;
+    }
+
+    .desc-code summary {
+        margin: 0 10%;
+    }
+
+    /* 990 a 1024px */
+    div.infos-code p {
+        width: 500px;
+
+    }
+
+    .img-code button {
+        top: 80%;
+        left: 25%;
+    }
+
+    /* 1024px */
+
+    /*--------------------------------------------------------*/
+
+    .igreja-mapa {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .igreja-local {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2px;
+    }
+
+    #igreja .igreja-end {
+        width: 600px;
+    }
+
+    #igreja img {
+        width: 100%;
+    }
+
+    .igreja-mapa iframe {
+        width: 600px;
+    }
+
+    #sobre .sobre-imgs img {
+        width: 500px;
+        height: 400px;
+    }
+
+    /*--------------------------------------------------------*/
+
     .mapa iframe {
-        width: 200px;
-        height: 150px;
+        width: 500px;
+        height: 400px;
+    }
+
+    #mensagem {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+
+    #back-to-top {
+
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
     }
 }
 
-/* TABLET */
-@media screen and (max-width:768px) {}
-
 /* MOBILE */
-@media screen and (max-width:767px) {}
+@media screen and (min-width:500px) and (max-width:767px) {
+    nav {
+        min-width: 300px;
+        max-width: 767px;
+        font-size: 20px;
+    }
+
+    .margem {
+        padding: 0 30px;
+    }
+
+    .margem-vinte {
+        margin: 0 2%;
+    }
+
+    .titulo {
+        font-size: 120px;
+        padding: 100px 0;
+    }
+
+    #inicio .titulo-principal {
+        padding: 9em 0 1em 0;
+    }
+
+    #inicio .titulo-principal h1 {
+        font-size: 80px;
+    }
+
+    #inicio .save-the-date {
+        gap: 2em;
+    }
+
+    #inicio img {
+        width: 40%;
+    }
+
+    #inicio .save,
+    #inicio .date {
+        font-size: 50px;
+    }
+
+    .frase {
+        font-size: 35px;
+    }
+
+    #btn-anterior,
+    #btn-proximo {
+        display: none;
+    }
+
+    .titulo-sobre span {
+        right: 14%;
+    }
+
+    #noivos img {
+        width: 60%;
+    }
+
+    #noivos .noiva,
+    #noivos .noivo {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .flip-padrinhos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+
+    .inspiracao-imgs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .inspiracao-imgs 
+    .img1,
+    .img2,
+    .img3 {
+        width: 440px;
+        height: 440px;
+    }
+
+    #normas .normas {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    #normas .normas img {
+        width: 36%;
+    }
+
+    #normas .divisa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lista {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .lista-texto {
+        text-align: center;
+    }
+
+    .qr-code {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 30px;
+        padding-bottom: 150px;
+    }
+
+    .infos-code p {
+        width: 500px;
+        padding: 0 20px 0 120px;
+    }
+
+    .img-code button {
+        top: 80%;
+        left: 22%;
+    }
+
+    .igreja-mapa {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .igreja-local {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2px;
+    }
+
+    #igreja .igreja-end {
+        width: 600px;
+    }
+
+    #igreja img {
+        width: 100%;
+    }
+
+    .igreja-mapa iframe {
+        width: 600px;
+    }
+
+    #sobre .sobre-imgs img {
+        width: 500px;
+        height: 400px;
+    }
+
+    /*--------------------------------------------------------*/
+
+    .mapa iframe {
+        width: 500px;
+        height: 400px;
+    }
+
+    #mensagem {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+
+    #back-to-top {
+
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+    }
+
+}
