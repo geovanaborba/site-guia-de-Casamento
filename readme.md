@@ -43,13 +43,23 @@ Até então, eu não fazia ideia que já criavam websites do tipo "Save the date
 
 * A publicação de mensagens está funcional e o contador de curtidas está funcionando corretamente na seção Mensagem.
 
+* Site responsivo
+
 <br>
 
 <img src ="./src/assets/img/readMe/layout.gif">
 
 <br>
 
-## Ferramentas utilizadas neste projeto: 
+## [• Ver site em funcionamento no Github Pages](https://geovanaborba.github.io/site-guia-de-Casamento/)
+
+<br><br>
+
+<details>
+<summary>
+
+## Ferramentas utilizadas
+</summary>
 
 [Bootstrap](https://getbootstrap.com/)
 
@@ -61,18 +71,34 @@ Até então, eu não fazia ideia que já criavam websites do tipo "Save the date
 
 [Get Waves](https://getwaves.io/)
 
+</details>
+
 <br>
 
-## Imagens utilizadas: 
+<details>
+<summary>
+
+## Imagens
+
+</summary>
 
 [FreePik - Pesquisa: pre wedding](https://br.freepik.com/search?format=search&query=pre%20wedding)
 
+</details>
+
 <br>
 
-## Tutoriais: 
+<details>
+<summary>
+
+## Tutoriais 
+
+</summary>
 
 [Akira Hashiro - Flip Cards](https://www.treinaweb.com.br/blog/css-aprenda-a-criar-o-efeito-de-flip-cards)
 
 [Canal hcode - Galeria de fotos com OWL Carousel](https://www.youtube.com/watch?v=gKesdxKezig)
 
 [Wagner Bugs - Copiar texto para área de transferência](https://www.youtube.com/watch?v=_qtaEkpnP68)
+
+</details>
