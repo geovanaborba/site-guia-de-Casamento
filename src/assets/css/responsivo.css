@@ -233,18 +233,14 @@
         margin: 0 10%;
     }
 
-    /* 990 a 1024px */
     div.infos-code p {
         width: 500px;
-
     }
 
     .img-code button {
         top: 80%;
         left: 25%;
     }
-
-    /* 1024px */
 
     /*--------------------------------------------------------*/
 
@@ -478,4 +474,48 @@
         right: 30px;
     }
 
+}
+
+/* MEDIA SCREEN APENAS PARA QR-CODE */ 
+
+@media screen and (min-width: 1250px) and (max-width:1450px){
+    div.infos-code p {
+        display: flex;
+        flex-direction: column;
+        width: 440px;
+        gap: 0;
+        padding: 0 60px 0 40px;
+    }
+    
+    .img-code button {
+        left: 15%;
+    }
+}
+
+@media screen and (min-width: 1050px) and (max-width:1249px){
+    .qr-code {
+        padding-bottom: 150px;
+    }
+
+    div.infos-code p {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        gap: 0;
+        padding: 0 60px 0 40px;
+    }
+    
+    .img-code button {
+        left: 15%;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width: 1023px) {
+    div.infos-code p {
+        padding: 0 10px 0 120px;
+    }
+
+    .img-code button {
+        left: 20%;
+    }
 }
