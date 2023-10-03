@@ -421,23 +421,27 @@
     }
 
     .infos-code p {
-        width: 290px;
-        gap: 20px;
+        width: 300px;
+        margin-left: 20px;
+        gap: 10px;
         padding: 0;
     }
 
     .img-code img {
-        width: 300px;
+        width: 320px;
     }
 
     .img-code button {
         top: 80%;
-        left: 8%;
+        left: 14%;
         width: 250px;
         height: 35px;
         font-size: 15px;
     }
 
+    .img-code input {
+        width: 20px;
+    }
 
     .igreja-mapa {
         display: flex;
