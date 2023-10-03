@@ -1,4 +1,20 @@
-@media screen and (max-width: 1800px) {
+@media screen and (min-width:1220px) and (max-width:1550px) {
+
+    .titulo-sobre span {
+        right: 30%;
+    }
+
+    .paleta img {
+        width: 60%;
+    }
+
+    .inspiracao-imgs .img1,
+    .inspiracao-imgs .img2,
+    .inspiracao-imgs .img3 {
+        width: 300px;
+        height: 300px;
+    }
+
     #normas .divisa {
         gap: 50px;
     }
@@ -9,116 +25,29 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+/* TABLET */
+@media screen and (min-width:768px) and (max-width:1219px) {
 
     .margem-vinte {
         margin: 0 10%;
     }
 
-    #btn-anterior {
-        left: 20px;
+    nav {
+        display: flex;
+        justify-content: center !important;
+        font-size: 13px;
     }
-
-    #btn-proximo {
-        right: 20px;
-    }
-
-    /*--------------------------------------------------------*/
-    .titulo-sobre span {
-        right: 29%;
-    }
-
-    .descricao-sobre {
-        padding: 0 10% 10% 10%;
-    }
-
-    #noivos img {
-        width: 40%;
-    }
-
-    /*--------------------------------------------------------*/
-
-    .paleta-desc .paleta {
-        width: 70%;
-    }
-
-    .flip-padrinhos {
-        gap: 50px;
-        margin: 0 30px;
-    }
-
-    .inspiracao-imgs .img1,
-    .img2,
-    .img3 {
-        width: 290px;
-        height: 290px;
-    }
-
-    /*--------------------------------------------------------*/
-
-    #normas .divisa {
-        gap: 50px;
-    }
-
-    #normas .card,
-    .card8 {
-        min-width: 400px;
-    }
-
-    /*--------------------------------------------------------*/
-
-    .infos-code p {
-        width: 420px;
-        font-size: 15px;
-        padding: 0 70px 0 10px;
-    }
-
-
-    /*--------------------------------------------------------*/
-
-    #igreja .igreja-end {
-        text-align: center;
-        width: 400px;
-    }
-
-    #igreja img {
-        width: 60%;
-    }
-
-    .igreja-mapa iframe {
-        width: 400px;
-    }
-
-    /*--------------------------------------------------------*/
-
-    .sobre-desc {
-        padding: 0 10%;
-    }
-
-    .mapa iframe {
-        width: 800px;
-        height: 550px;
-    }
-}
-
-
-/* DESKTOP / TABLET */
-@media screen and (min-width:768px) and (max-width: 1024px) {
 
     #inicio .titulo-principal {
-        padding: 10em 0 1em 0;
+        padding: 6em 0 1em 0;
     }
 
     #inicio .titulo-principal h1 {
-        font-size: 70px;
+        font-size: 90px;
     }
 
     #inicio .save-the-date {
         gap: 3em;
-    }
-
-    #inicio img {
-        width: 50%;
     }
 
     #inicio .save,
@@ -138,13 +67,13 @@
     }
 
     #btn-anterior {
-        top: 1550px;
-        left: 3px;
+        top: 1400px;
+        left: 2px;
     }
 
     #btn-proximo {
-        top: 1550px;
-        right: 3px;
+        top: 1400px;
+        right: 2px;
     }
 
     /*--------------------------------------------------------*/
@@ -167,10 +96,19 @@
         font-size: 90px;
     }
 
+    #noivos img {
+        width: 40%;
+    }
+
     /*--------------------------------------------------------*/
+
+    .paleta-desc .paleta {
+        width: 80%;
+    }
 
     .flip-padrinhos {
         gap: 20px;
+        margin: 0 10px;
     }
 
     .flip-container {
@@ -179,7 +117,7 @@
     }
 
     .back {
-        padding: 30px 35px 40px 35px;
+        padding: 40px 35px;
     }
 
     .inspiracao-imgs {
@@ -220,26 +158,30 @@
         gap: 30px;
     }
 
+    #lista img {
+        width: 60%;
+    }
+
+    .lista .lista-texto h1 {
+        text-align: center;
+    }
+
     /*--------------------------------------------------------*/
 
     .qr-code {
         flex-direction: column-reverse;
         justify-content: center;
         gap: 30px;
-        padding-bottom: 100px;
-    }
-
-    .desc-code summary {
-        margin: 0 10%;
+        padding-bottom: 200px;
     }
 
     div.infos-code p {
-        width: 500px;
+        padding: 0;
     }
 
     .img-code button {
         top: 80%;
-        left: 25%;
+        left: 16%;
     }
 
     /*--------------------------------------------------------*/
@@ -294,15 +236,19 @@
 }
 
 /* MOBILE */
-@media screen and (min-width:500px) and (max-width:767px) {
+@media screen and (min-width:320px) and (max-width:767px) {
+
     nav {
-        min-width: 300px;
-        max-width: 767px;
-        font-size: 20px;
+        padding: 1em;
+        position: relative;
+    }
+
+    nav .nav-item {
+        padding-top: 20px;
     }
 
     .margem {
-        padding: 0 30px;
+        padding: 0 10px;
     }
 
     .margem-vinte {
@@ -310,12 +256,12 @@
     }
 
     .titulo {
-        font-size: 120px;
+        font-size: 65px;
         padding: 100px 0;
     }
 
     #inicio .titulo-principal {
-        padding: 9em 0 1em 0;
+        padding: 3em 0 1em 0;
     }
 
     #inicio .titulo-principal h1 {
@@ -323,16 +269,24 @@
     }
 
     #inicio .save-the-date {
-        gap: 2em;
+        gap: 0;
+        display: flex;
+        flex-direction: column;
     }
 
     #inicio img {
-        width: 40%;
+        width: 60%;
     }
 
     #inicio .save,
     #inicio .date {
-        font-size: 50px;
+        font-size: 45px;
+        padding-top: 30px;
+    }
+
+    #inicio iframe {
+        width: 290px;
+        height: 70px;
     }
 
     .frase {
@@ -345,11 +299,17 @@
     }
 
     .titulo-sobre span {
-        right: 14%;
+        right: 5%;
+        font-size: 60px;
+    }
+
+    .titulo-sobre h1 {
+        font-size: 55px;
+        padding-top: 80px;
     }
 
     #noivos img {
-        width: 60%;
+        width: 80%;
     }
 
     #noivos .noiva,
@@ -359,6 +319,15 @@
         text-align: justify;
     }
 
+    .paleta-desc .paleta {
+        width: 80%;
+        padding: 50px 0;
+    }
+
+    .paleta-desc .arabesco {
+        width: 290px;
+    }
+
     .flip-padrinhos {
         display: flex;
         flex-direction: column;
@@ -366,6 +335,18 @@
         gap: 50px;
     }
 
+    .flip-container {
+        width: 300px;
+        height: 450px;
+    }
+
+    .front {
+        padding: 60px;
+    }
+
+    .inspiracao h1 {
+        font-size: 60px;
+    }
 
     .inspiracao-imgs {
         display: flex;
@@ -373,13 +354,12 @@
         align-items: center;
         gap: 20px;
     }
-    
-    .inspiracao-imgs 
-    .img1,
+
+    .inspiracao-imgs .img1,
     .img2,
     .img3 {
-        width: 440px;
-        height: 440px;
+        width: 300px;
+        height: 300px;
     }
 
     #normas .normas {
@@ -390,13 +370,33 @@
     }
 
     #normas .normas img {
-        width: 36%;
+        width: 56%;
     }
 
     #normas .divisa {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    #normas .card,
+    #normas .card8 {
+        min-width: 290px;
+        padding: 50px;
+    }
+
+    #normas ol {
+        padding-left: 0;
+    }
+
+    #dress-code .consideracoes {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    #dress-code img {
+        width: 65%;
     }
 
     .lista {
@@ -409,22 +409,35 @@
         text-align: center;
     }
 
+    .lista ul {
+        text-align: left;
+    }
+
     .qr-code {
         flex-direction: column-reverse;
         justify-content: center;
         gap: 30px;
-        padding-bottom: 150px;
+        padding-bottom: 250px;
     }
 
     .infos-code p {
-        width: 500px;
-        padding: 0 20px 0 120px;
+        width: 290px;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .img-code img {
+        width: 300px;
     }
 
     .img-code button {
         top: 80%;
-        left: 22%;
+        left: 8%;
+        width: 250px;
+        height: 35px;
+        font-size: 15px;
     }
+
 
     .igreja-mapa {
         display: flex;
@@ -439,7 +452,7 @@
     }
 
     #igreja .igreja-end {
-        width: 600px;
+        width: 300px;
     }
 
     #igreja img {
@@ -447,38 +460,52 @@
     }
 
     .igreja-mapa iframe {
-        width: 600px;
+        width: 300px;
+        height: 300px;
     }
 
     #sobre .sobre-imgs img {
-        width: 500px;
-        height: 400px;
+        width: 300px;
+        height: 200px;
     }
 
     /*--------------------------------------------------------*/
 
     .mapa iframe {
-        width: 500px;
+        width: 300px;
         height: 400px;
     }
 
+    .hotel-item {
+        display: flex;
+        flex-direction: column;
+    }
+
     #mensagem {
-        max-width: 650px;
+        max-width: 290px;
         margin: 0 auto;
     }
+
+    #mensagem .btnSubmitForm {
+        padding: 10px 20px;
+    }
+
+    .actionBtnPost .filesPost {
+        margin: 10px 0 0 3px;
+    }
+
 
     #back-to-top {
 
         position: fixed;
         bottom: 30px;
-        right: 30px;
+        right: 7px;
     }
-
 }
 
-/* MEDIA SCREEN APENAS PARA QR-CODE */ 
+/* MEDIA SCREEN APENAS PARA QR-CODE */
 
-@media screen and (min-width: 1250px) and (max-width:1450px){
+@media screen and (min-width: 1220px) and (max-width:1450px) {
     div.infos-code p {
         display: flex;
         flex-direction: column;
@@ -486,28 +513,26 @@
         gap: 0;
         padding: 0 60px 0 40px;
     }
-    
+
     .img-code button {
         left: 15%;
     }
 }
 
-@media screen and (min-width: 1050px) and (max-width:1249px){
+@media screen and (min-width: 1024px) and (max-width:1219px) {
     .qr-code {
         padding-bottom: 150px;
     }
 
     div.infos-code p {
-        display: flex;
-        flex-direction: column;
-        width: 300px;
         gap: 0;
-        padding: 0 60px 0 40px;
+        padding: 0;
     }
-    
+
     .img-code button {
-        left: 15%;
+        left: 30%;
     }
+
 }
 
 @media screen and (min-width:900px) and (max-width: 1023px) {
@@ -517,5 +542,9 @@
 
     .img-code button {
         left: 20%;
+    }
+
+    .img-code button {
+        left: 25%;
     }
 }
